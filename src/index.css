@@ -5,7 +5,16 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to right, rgb(168, 17, 238), rgb(44, 156, 226));;
 }
+
+@font-face {
+  font-family: 'Retwisted Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Retwisted Regular'), url('./Retwisted.woff') format('woff');
+  }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
